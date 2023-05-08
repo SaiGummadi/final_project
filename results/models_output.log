@@ -1,0 +1,117 @@
+Error in as.POSIXlt.character(as.character(x), ...) : 
+  character string is not in a standard unambiguous format
+Error in as.POSIXlt.character(as.character(x), ...) : 
+  character string is not in a standard unambiguous format
+
+	Welch Two Sample t-test
+
+data:  train$Sunrise_Sunset_DAY and train$Severity
+t = -329.84, df = 40908, p-value < 2.2e-16
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -1.952462 -1.929395
+sample estimates:
+mean of x mean of y 
+0.5855011 2.5264299 
+
+
+	Welch Two Sample t-test
+
+data:  train$Traffic_Signal and train$Severity
+t = -466.05, df = 29876, p-value < 2.2e-16
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -2.457097 -2.436516
+sample estimates:
+ mean of x  mean of y 
+0.07962314 2.52642988 
+
+               Df Sum Sq Mean Sq F value Pr(>F)    
+train$State    48   1025  21.357    39.1 <2e-16 ***
+Residuals   23939  13077   0.546                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Error in match.fun(FUN) : argument "FUN" is missing, with no default
+Error in is.data.frame(x) : object 'my_num_data' not found
+Error: object 'corrs' not found
+
+Call:
+lm(formula = Severity ~ State + Traffic_Signal + Temperature + 
+    Humidity... + Crossing + Visibility + 1, data = train)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-1.3359 -0.5521 -0.3484  0.5297  1.9399 
+
+Coefficients:
+                     Estimate Std. Error t value Pr(>|t|)    
+(Intercept)         2.4451317  0.1877522  13.023  < 2e-16 ***
+StateAR             0.5420819  0.2889675   1.876   0.0607 .  
+StateAZ             0.1259908  0.1959051   0.643   0.5202    
+StateCA            -0.3243064  0.1861354  -1.742   0.0815 .  
+StateCO             0.1763735  0.1882513   0.937   0.3488    
+StateCT             0.0368274  0.1867010   0.197   0.8436    
+StateDC             0.6712538  0.2609173   2.573   0.0101 *  
+StateDE             0.5281428  0.2271205   2.325   0.0201 *  
+StateFL            -0.0691930  0.1950101  -0.355   0.7227    
+StateGA             0.4231519  0.1877919   2.253   0.0242 *  
+StateIA             0.1262599  0.1884264   0.670   0.5028    
+StateID            -0.2710940  0.1931765  -1.403   0.1605    
+StateIL            -0.1977710  0.1850068  -1.069   0.2851    
+StateIN             0.2159700  0.1869242   1.155   0.2479    
+StateKS            -0.3261079  0.1945704  -1.676   0.0937 .  
+StateKY            -0.1353767  0.1913910  -0.707   0.4794    
+StateLA            -0.0494617  0.1913640  -0.258   0.7960    
+StateMA            -0.4536401  0.1909329  -2.376   0.0175 *  
+StateMD             0.3561845  0.1874590   1.900   0.0574 .  
+StateME            -0.4350993  0.1966960  -2.212   0.0270 *  
+StateMI            -0.0679639  0.1855550  -0.366   0.7142    
+StateMN            -0.4582492  0.1857421  -2.467   0.0136 *  
+StateMO            -0.2106720  0.1862396  -1.131   0.2580    
+StateMS             0.2688997  0.2119087   1.269   0.2045    
+StateMT            -0.1447250  0.2131721  -0.679   0.4972    
+StateNC            -0.4246369  0.1864983  -2.277   0.0228 *  
+StateND             1.3493882  0.7605559   1.774   0.0760 .  
+StateNE            -0.2374359  0.1980816  -1.199   0.2307    
+StateNH            -0.4785098  0.1898083  -2.521   0.0117 *  
+StateNJ            -0.0969798  0.1859971  -0.521   0.6021    
+StateNM            -0.1730838  0.2182627  -0.793   0.4278    
+StateNV            -0.2433522  0.2003616  -1.215   0.2245    
+StateNY            -0.0567275  0.1851712  -0.306   0.7593    
+StateOH             0.0156342  0.1855349   0.084   0.9328    
+StateOK            -0.2066059  0.1965811  -1.051   0.2933    
+StateOR             0.3035369  0.1912789   1.587   0.1126    
+StatePA             0.1272806  0.1855051   0.686   0.4926    
+StateRI            -0.4652516  0.1912911  -2.432   0.0150 *  
+StateSC            -0.2117658  0.2104562  -1.006   0.3143    
+StateSD             0.3870018  0.4643661   0.833   0.4046    
+StateTN            -0.1473370  0.1891879  -0.779   0.4361    
+StateTX            -0.1354839  0.1865362  -0.726   0.4677    
+StateUT            -0.3005075  0.1892927  -1.588   0.1124    
+StateVA             0.0582782  0.1867891   0.312   0.7550    
+StateVT            -0.0585752  0.2402945  -0.244   0.8074    
+StateWA            -0.2279047  0.1865341  -1.222   0.2218    
+StateWI            -0.0633702  0.1864312  -0.340   0.7339    
+StateWV            -0.0149094  0.1946837  -0.077   0.9390    
+StateWY             0.5164817  0.2114840   2.442   0.0146 *  
+Traffic_SignalTRUE  0.0953584  0.0202494   4.709 2.50e-06 ***
+Temperature         0.0005289  0.0004217   1.254   0.2098    
+Humidity...         0.0020640  0.0002899   7.119 1.12e-12 ***
+CrossingTRUE        0.0331245  0.0271866   1.218   0.2231    
+Visibility          0.0013602  0.0016143   0.843   0.3995    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.7377 on 23934 degrees of freedom
+Multiple R-squared:  0.07635,	Adjusted R-squared:  0.07431 
+F-statistic: 37.33 on 53 and 23934 DF,  p-value: < 2.2e-16
+
+New names:
+• `` -> `...50`
+Error: object 'Severity_pred' not found
+Error: object 'x_num' not found
+Error in ypredlm$mse <- (predlm$Severity - predlm$X_num)^2 : 
+  object 'ypredlm' not found
+Warning message:
+In mean.default(predlm$mse) :
+  argument is not numeric or logical: returning NA
